@@ -1,18 +1,38 @@
 # ---- 基盤 ----
+accelerate
 numpy
 pandas
 scipy
 openpyxl
+zenhan
 
 # ---- 機械学習 ----
 scikit-learn
 networkx
+#pyvis
+#scikit-surprise
+
+# ---- 自然言語処理 ----
+nltk
+#mecab-python3
+#unidic-lite
+
+# ---- 深層学習 ----
+# torch
+# torchvision
+# transformers
+
+# ---- 生成AI ----
+# langchain
+# langchain-openai
+# langchain-google-genai
+# langchain-ollama
 
 # ---- 統計 ----
 statsmodels
 pingouin
 dabest
-#prophet # Facebook謹製時系列予測ライブラリ
+# prophet # Facebook謹製時系列予測ライブラリ
 
 # ---- ベイズ統計 ----
 pymc
@@ -26,6 +46,13 @@ seaborn
 plotly
 altair
 vl-convert-python
+# folium
+
+# ---- スクレイピング ----
+beautifulsoup4
+lxml
+# langextract
+# playwright
 
 # ---- 開発環境 ----
 jupyterlab
@@ -33,4 +60,16 @@ ipykernel
 tqdm
 ruff
 python-box
+python-dateutil
 watermark
+pip-review
+click
+
+# ---- ウェブ開発 ----
+# django
+# django-debug-toolbar
+# django-extensions
+# mysqlclient
+
+# ---- 出版 ----
+# jupyter-book
